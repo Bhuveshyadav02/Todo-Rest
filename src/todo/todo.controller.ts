@@ -45,7 +45,7 @@ import { Controller, Get, Post, Body, Patch, Param, Delete, UseGuards } from '@n
 import { TodoService } from './todo.service';
 import { CreateTodoDto } from './dto/create-todo.dto';
 import { UpdateTodoDto } from './dto/update-todo.dto';
-import { JwtAuthGuard } from 'src/auth/auth.guard'; // Make sure the path is correct
+import { JwtAuthGuard } from "../auth/auth.guard"
 import { UserEmail } from 'src/common/decorators/user-email.decorator';
 import { ApiBearerAuth, ApiOperation, ApiTags } from '@nestjs/swagger';
 
