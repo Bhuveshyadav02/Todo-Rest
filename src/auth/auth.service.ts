@@ -4,7 +4,7 @@ import { UpdateAuthDto } from './dto/update-auth.dto';
 import { RegisterUserDto } from './dto/register.dto';
 import * as bcrypt from 'bcrypt';
 import {LoginDto} from './dto/login.dto'
- import { DatabaseService } from 'src/database/database.service';
+ import { DatabaseService } from '../database/database.service';
 import { emit } from 'process';
 import { JwtService } from '@nestjs/jwt';
 @Injectable()
